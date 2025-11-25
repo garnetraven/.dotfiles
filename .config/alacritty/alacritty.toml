@@ -1,3 +1,9 @@
+[keyboard]
+bindings = [
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+    { key = "V", mods = "Control|Shift", action = "Paste" },
+]
+
 [font]
 size = 14.0
 
@@ -17,6 +23,8 @@ style = "Italic"
 family = "MesloLGS NF"
 style = "Regular"
 
-[shell]
+[terminal]
+
+[terminal.shell]
 args = ["--login"]
 program = "/usr/bin/zsh"
