@@ -1,8 +1,13 @@
 [keyboard]
-bindings = [
-    { key = "C", mods = "Control|Shift", action = "Copy" },
-    { key = "V", mods = "Control|Shift", action = "Paste" },
-]
+	bindings = [
+    	{ key = "C", mods = "Control|Shift", action = "Copy" },
+    	{ key = "V", mods = "Control|Shift", action = "Paste" },
+	]
+
+[mouse]
+	bindings = [
+		{ mouse = "Right", action = "Copy" },
+	]
 
 [font]
 size = 14.0
